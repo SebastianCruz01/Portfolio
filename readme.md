@@ -37,4 +37,4 @@ HTML
 CSS
 
 # Link to deployed application
-https://anagha778.github.io/portfolio/
+(https://sebastiancruz01.github.io/Module2-Challenge/)
