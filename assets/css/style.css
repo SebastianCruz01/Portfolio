@@ -1,5 +1,5 @@
 :root {
-    --primary-color:#1c8591;
+    --primary-color:#000000;
   }
   
   * {
@@ -17,7 +17,7 @@
   /* apply styles to <header> */
   header {
       padding: 20px 35px;
-      background-color: #0a2527;
+      background-color: #035afc;
       display:flex;
       justify-content: space-between;
       flex-wrap: wrap;
@@ -346,5 +346,6 @@ figcaption{
         margin-top: -45%;
         font-size: 5px;
     }
+    
 
   }
