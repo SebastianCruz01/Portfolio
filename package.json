@@ -1,0 +1,22 @@
+{
+  "name": "module2-challenge",
+  "version": "1.0.0",
+  "description": "A portfolio of work goes a long way for employers. A portfolio is evidence\r you know what you are doing and can also really highlight your strengths. Students who follow through and work on their portfolio really do have the advantage and a have the higher likelyhood of getting a phone call back. The more projects you have on the website, that % can only go up.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianCruz01/Module2-Challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastianCruz01/Module2-Challenge/issues"
+  },
+  "homepage": "https://github.com/SebastianCruz01/Module2-Challenge#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
