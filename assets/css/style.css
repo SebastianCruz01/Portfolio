@@ -1,5 +1,7 @@
+
+
 :root {
-    --primary-color:#000000;
+    --primary-color:#1c8591;
   }
   
   * {
@@ -17,7 +19,7 @@
   /* apply styles to <header> */
   header {
       padding: 20px 35px;
-      background-color: #035afc;
+      background-color: #0a2527;
       display:flex;
       justify-content: space-between;
       flex-wrap: wrap;
@@ -61,7 +63,7 @@
 /*apply style to hero image*/
 .hero{
     height: 400px;
-    background-image: url("../images/Background.jpg");
+    background-image: url("../images/BACKGROUND.jfif");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -71,7 +73,7 @@
   }
   
   /*Add employees photo*/
-.image2 {
+.image1 {
     position: absolute;
     top: 150px;
     left: 30px;
@@ -346,6 +348,4 @@ figcaption{
         margin-top: -45%;
         font-size: 5px;
     }
-    
-
   }
