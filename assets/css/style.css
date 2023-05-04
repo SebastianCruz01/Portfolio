@@ -50,7 +50,9 @@
       font-weight: lighter;
       font-size: 1.3vw;
       color: var(--primary-color);
-      text-decoration: none;
+     
+      top: 0;
+      
       border-bottom: 2px solid;
       padding-bottom: 2px;
     }
@@ -60,17 +62,6 @@
   }
 
   
-/*apply style to hero image*/
-.hero{
-    height: 400px;
-    background-image: url("../images/BACKGROUND.jfif");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    position: relative;
-  }
   
   /*Add employees photo*/
 .image1 {
@@ -82,24 +73,9 @@
     width: 150px;
   }
   
-.hero h2 {
-    font-style: italic;
-    font-size: 20px;
-    color: var(--primary-color);
-    margin-top: 300px;
-    background-color:rgb(229, 232, 238);
-  }
 
-  
 /*Work section style*/
-.about{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px 50px;  
-    width: 90%;
-    align-items: center;
-  }
+
   
 .flex-row {
     display: flex;
@@ -191,44 +167,6 @@ figcaption{
   background-color: rgb(229, 232, 238);
 }
   
-.gallery__item--1 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  position: relative;
-  
-  }
-  
-.gallery__item--2 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    }
-  
-.gallery__item--3 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 4;
-  grid-row-end: 5;
-  }
-  
-.gallery__item--4 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  }
-  
-.gallery__item--5 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 4;
-  grid-row-end: 5;
-  }
-
-  
 /*About section style*/
 .vl-border3 {
     border-right: 3px solid #39a6b2;
@@ -275,6 +213,7 @@ figcaption{
     header h1 {
       width: 100%;
       text-align: center;
+      position: fixed;
     }
   
     header nav ul {
@@ -289,21 +228,16 @@ figcaption{
     header nav ul li a {
       font-size: 16px;
       font-weight: bold;
+      position: fixed;
     }
 
-    .hero{
-      background-size: cover;
-    }
+   
 
     .image2{
       height: 100px;
       width: 100px;
     }
-    .hero h2 {      
-      font-size: 10px;
-      margin-top: 350px;
-      }
-
+   
     .step-text p{
         width: 85%;
       }
@@ -314,16 +248,7 @@ figcaption{
       font-weight: bold;
     }
 
-    .vl-border1 {      
-      height: 350px;     
-    }
 
-  .vl-border2{
-    height: 280px;     
-  }  
-    .container{
-      width: 100%;
-    }
     .contact-info ul {     
       width: 100%;
       justify-content: left;
