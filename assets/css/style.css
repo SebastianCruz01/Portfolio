@@ -100,7 +100,9 @@
     width: 90%;
     align-items: center;
   }
-  
+  custom-link{
+    color:white
+  }
 .flex-row {
     display: flex;
     justify-content: left;
