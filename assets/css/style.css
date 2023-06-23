@@ -58,19 +58,6 @@
   section {
       padding :10px;
   }
-
-  
-/*apply style to hero image*/
-.hero{
-    height: 400px;
-    background-image: url("../images/BACKGROUND.jfif");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    position: relative;
-  }
   
   /*Add employees photo*/
 .image1 {
@@ -180,57 +167,7 @@
   object-fit: cover;
   border: solid 1px var(--primary-color);  
  }
-
-figcaption{
-  position: absolute;
-  margin-left: 5px;
-  margin-top: -20%;
-  font-size: 12px;
-  font-style: italic;
-  font-weight: bold;
-  color:  rgb(22, 44, 44);
-  border: solid 1px var(--primary-color);
-  background-color: rgb(229, 232, 238);
-}
-  
-.gallery__item--1 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  position: relative;
-  
-  }
-  
-.gallery__item--2 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    }
-  
-.gallery__item--3 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 4;
-  grid-row-end: 5;
-  }
-  
-.gallery__item--4 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  }
-  
-.gallery__item--5 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 4;
-  grid-row-end: 5;
-  }
-
-  
+   
 /*About section style*/
 .vl-border3 {
     border-right: 3px solid #39a6b2;
